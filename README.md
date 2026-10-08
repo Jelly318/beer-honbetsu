@@ -17,7 +17,9 @@ THE BEER TOKACHIの公式サイトではなく、受注・納品実績を示す�
 ローカルでは `index.html` をブラウザで開くか、このフォルダで
 `python3 -m http.server 8000 --bind 127.0.0.1` を実行して確認できます。
 
-公開先は選定待ちです。公開URLが決まったら、canonical・og:url・og:imageの絶対URLを設定します。
+公開URL: https://jelly318.github.io/beer-tokachi/
+
+GitHub Pagesで `main` ブランチのルートを公開します。canonical・og:url・og:imageは公開URLの絶対URLを設定しています。
 サンプルは検索で公式サイトと混同されないよう `noindex,follow` にしています。
 
 既存GitHub版の4コミットの履歴を保持して更新します。
