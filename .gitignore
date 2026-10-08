@@ -7,14 +7,11 @@
 !robots.txt
 !README.md
 !images/
-!images/*.jpg
-!images/*.webp
-!images/*.png
-!images/*.ico
-# Original GitHub assets remain tracked and intact.
-!IMG_2415.jpg
-!img_0.jpg
-!img_8652-1.jpg
+!images/honbetsu-*.jpg
+!images/honbetsu-*.webp
+!images/honbetsu-*.png
+!images/honbetsu-*.ico
+!images/honbetsu-*.svg
 # Never publish secrets or local working material.
 .env
 .env.*

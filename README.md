@@ -1,26 +1,21 @@
-# THE BEER TOKACHI — Web制作サンプル
+# THE BEER HONBETSU — 架空店舗のWeb制作サンプル
 
-飲食店・店舗向けの制作サンプル／リニューアル提案例です。
-THE BEER TOKACHIの公式サイトではなく、受注・納品実績を示すものではありません。
+飲食店・店舗向けのデザイン・情報設計・スマートフォン対応を示す制作サンプルです。
+店名、Haruto Takedaという店主、商品、文章、営業時間、席数は架空の設定です。実在する店舗・人物との関係、受注・納品実績を示すものではありません。
+実際の所在地はなく、購入・予約・来店はできません。
 
-既存のHTML・店舗写真・メニュー写真・ロゴを活かした静的サイトです。
-店舗のストーリー、メニュー、営業時間・所在地をスマートフォンでも閲覧できます。
-オンラインショップへのボタンはデモで、注文は受け付けません。
+## 素材
+ロゴはHとグラスを幾何学的に組み合わせた独自SVGです。店内画像は写真を参照せず図形から描いた架空空間のイラストです。メニュー、OGP、アイコンも独自制作で、第三者のロゴ・写真・商品説明は使用していません。
+制作方法はローカルの `qa/fictionalize.py` に保存しています。これは公開対象ではありません。
 
-## 構成
+## 公開構成
+`index.html`、`portfolio.css`、`portfolio.js`、`robots.txt`、このREADME、`images/honbetsu-*` のみを公開対象とします。
+GitHub Pagesは既存リポジトリのmainルートを使用します。`noindex,follow`を維持しています。
+バックアップ・旧素材・QA・workspace・設定スクリプトは公開対象外です。過去Git履歴の旧素材は今回改変しません。
 
-- `index.html`: 提示用のトップページ
-- `portfolio.css` / `portfolio.js`: 表示・操作の改善
-- `images/`: 既存画像を活かした最適化版、favicon、制作サンプル用OGP画像
-- ルート直下のJPG 3点: 既存GitHub版の資産を保持
+## 公開URL
+https://jelly318.github.io/beer-honbetsu/
 
-ローカルでは `index.html` をブラウザで開くか、このフォルダで
-`python3 -m http.server 8000 --bind 127.0.0.1` を実行して確認できます。
+GitHub: https://github.com/Jelly318/beer-honbetsu
 
-公開URL: https://jelly318.github.io/beer-tokachi/
-
-GitHub Pagesで `main` ブランチのルートを公開します。canonical・og:url・og:imageは公開URLの絶対URLを設定しています。
-サンプルは検索で公式サイトと混同されないよう `noindex,follow` にしています。
-
-既存GitHub版の4コミットの履歴を保持して更新します。
-ローカルのバックアップ、確認用画像、workspace、設定用スクリプトは公開対象に含めません。
+既存リポジトリの名称を変更して使用します。canonical・OGP・構造化データのURLを統一しています。過去履歴は保持します。

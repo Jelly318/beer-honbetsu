@@ -28,3 +28,8 @@ section[id]{scroll-margin-top:100px}
 /* Keep all menu items visible on narrow screens; image opens at full size. */
 .beer-photo img{height:auto;aspect-ratio:auto;object-fit:contain}
 .menu-image-note{font-size:12px;line-height:1.8;color:#5b544c;margin-top:16px}
+
+/* Independent fictional identity; original layout retained. */
+.beers-mark{width:112px;height:119px;object-fit:contain}
+.hero-sub{max-width:540px}.story-body{font-size:14px;line-height:2.2}
+@media(max-width:480px){.hero-sub{max-width:290px}.hero-title{font-size:26px}.hero-number{font-size:clamp(32px,8.2vw,42px)}.beers-mark{width:80px;height:85px}}
